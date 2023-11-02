@@ -1,0 +1,95 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'attention_seekers/zoomIn.css';
+@import 'attention_seekers/bounce.css';
+@import 'attention_seekers/flash.css';
+@import 'attention_seekers/pulse.css';
+@import 'attention_seekers/rubberBand.css';
+@import 'attention_seekers/shake.css';
+@import 'attention_seekers/headShake.css';
+@import 'attention_seekers/swing.css';
+@import 'attention_seekers/tada.css';
+@import 'attention_seekers/wobble.css';
+@import 'attention_seekers/jello.css';
+@import 'attention_seekers/heartBeat.css';
+
+@layer base {
+    @font-face {
+        font-family: 'avenir-next-lt-pro-regular';
+        font-weight: Medium;
+        font-style:normal;
+        src: url("fonts/Avenir-NextLTPro-Regular.woff") format('woff');
+    }
+    
+    @font-face {
+      font-family: 'avenir-next-lt-pro-bold';
+      font-weight: bold;
+      font-style:normal;
+      src: url("fonts/AvenirNextLTPro-Bold.woff") format('woff');
+    }
+    
+    @font-face {
+        font-family: 'unbounded-medium';
+        font-weight: medium;
+        src: url("fonts/Unbounded-Medium.woff") format('woff');
+    }
+    @font-face {
+      font-family: 'unbounded-bold';
+      font-weight: bold;
+      font-style:normal;
+      src: url("fonts/Unbounded-Bold.woff") format('woff');
+    }
+}
+  .body {
+    @apply overflow-hidden;
+  }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .md:text-left {
+      text-align: center;
+  }
+
+  /* Add grid grid-cols-2 and text-sm */
+  .md\:grid-cols-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .sm:font-size{
+      font-size: 8px; /* You can adjust the font size as needed */
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .md:text-left {
+      text-align: center;
+      
+    }  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .md:text-left {
+  text-align: left;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .md:text-left {
+      text-align: left;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {.md:text-left {
+  text-align: left;
+}
+} 
+
+
+
+

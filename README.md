@@ -1,0 +1,2 @@
+# new-kdic
+KDIC website

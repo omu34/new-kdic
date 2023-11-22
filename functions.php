@@ -150,20 +150,20 @@ function new_kdic_scripts()
 	wp_enqueue_style('new-kdic-xp', get_template_directory_uri() . "/assets/css/xp.css", array(), "all");
 
 	wp_style_add_data('new-kdic-style', 'rtl', 'replace');
-	wp_enqueue_style('new-kdic-tailwind', "https://cdn.jsdelivr.net/npm/tailwindcss/assets/css/tailwind.min.css", array(), "all");
+	// wp_enqueue_style('new-kdic-tailwind', "https://cdn.jsdelivr.net/npm/tailwindcss/assets/css/tailwind.min.css", array(), "all");
 	wp_enqueue_style('new-kdic-unbounded', "https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;467;700;900&display=swap", array(), "all");
 	wp_enqueue_style('new-kdic-flow-bite', "https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.css", array(), "1.8.0", "all");
 	wp_enqueue_style('new-kdic-fontAwesome', "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", array(), "4.17.0", "all");
 	wp_enqueue_style('new-kdic-animate', "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css", array(), "4.1.1", "all");
 
-	
+
 	wp_enqueue_script('new-kdic-button', get_template_directory_uri() . '/assets/css/js/button.js', array(), true);
 	wp_enqueue_script('new-kdic-navigation', get_template_directory_uri() . '/js/navigation.js', array(), true);
-	wp_enqueue_script('new-kdic-lands', get_template_directory_uri() . '/assets/css/js/land.js', array(), true);
-	wp_enqueue_script('new-kdic-tao', get_template_directory_uri() . '/assets/css/js/tao.js', array(), true);
+	// wp_enqueue_script('new-kdic-lands', get_template_directory_uri() . '/assets/css/js/land.js', array(), true);
+	// wp_enqueue_script('new-kdic-tao', get_template_directory_uri() . '/assets/css/js/tao.js', array(), true);
 
-	
-	wp_enqueue_script('new-kdic-carousels', "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js", array(), "2.3.4", true);
+
+	// wp_enqueue_script('new-kdic-carousels', "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js", array(), "2.3.4", true);
 	wp_enqueue_script('new-kdic-flow-bite', "https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js", array(), "1.8.0", true);
 	wp_enqueue_script('new-kdic-flow-bites', "https://unpkg.com/flowbite@1.4.0/dist/flowbite.js", array(), "1.4.0", true);
 

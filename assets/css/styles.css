@@ -135,6 +135,17 @@
     /* 30px */
 }
 
+.b-word3 {
+    color: var(--Black, #101010);
+    text-align: right;
+    font-family: avenir-regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    /* 30px */
+}
+
 .event-2 {
     display: flex;
     width: 96.786px;
@@ -189,14 +200,13 @@
 }
 
 .b-word2 {
-    color: var(--Black, #fff);
-    text-align: center;
-    font-family: avenir-regular;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 550;
-    line-height: 150%;
-    /* 30px */
+    color: var(--White, #FFF);
+text-align: center;
+font-family: avenir-regular;
+font-size: 16px;
+font-style: normal;
+font-weight: 550;
+line-height: 110%; /* 17.6px */
 }
 
 .f-title {
